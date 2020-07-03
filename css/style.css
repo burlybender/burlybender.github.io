@@ -1,7 +1,57 @@
+header {
+    height: 70px;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    padding: 0px;
+    
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin: 10px;
+}
+
+#navmenu {
+    padding: 0px;
+    margin: 0px;
+}
+
+li { 
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+a {
+    color: rgba(0, 0, 0, .5);
+    margin: 0px;
+}
+
+.navbar {
+    float: left;
+    padding: 25px 5px 25px 5px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    transition-duration: .4s;
+}
+
+.navbar:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
 body {
     background-color: rgba(0, 0, 0, .6);
     font-family: Arial, Helvetica, sans-serif;
     color: rgba(255, 255, 255, .8);
+    margin: 0px;
 }
 
 h1 {
@@ -9,20 +59,84 @@ h1 {
     text-align: center;
 }
 
-#root {
-    background-color: seagreen;
-}
-
-#calltoactionheading {
-    display: none;
-}
-
-.worksbutton {
-    display: inline-block;
-    min-width: 33%;
-    min-height: 20vh;
-    background-color: rgba(0, 0, 0, .8);
-    margin-top: 1vh;
+h2 {
     font-size: 5vh;
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.headline {
+    height: 800px;
+    max-width: 800px;
+    background-image: url("../images/charleston.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+
+#readnow {
+    display: block;
+    font-size: 5vh;
+    font-weight: 600;
+    width: 400px;
+    margin: auto;
+    padding-top: 600px;
+    transition-duration: .4s;
+}
+
+.calltoaction {
+    color: rgba(255, 255, 255, .8);
+}
+.calltoaction:hover {
+    color: rgba(220, 50, 0, 1);
+}
+
+footer {
+    height: 70px;
+    background-color: rgba(80, 145, 225, .5);
+}
+
+#bottomnav {
+    display: block;
+    height: 35px;
+    width: 960px;
+    margin: auto;
+}
+
+.botnav {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    width: 150px;
+    padding: 7.5px 5px 7.5px 5px;
+    transition-duration: .4s;
+}
+
+#submitsocial {
+    height: 35px;
+    width: 320px;
+    margin: auto;
+}
+
+.submit {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    width: 150px;
+    padding: 7.5px 5px 7.5px 5px;
+    transition-duration: .4s;
+}
+
+.submit:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.botnav:hover {
+    color: rgba(255, 255, 255, 1);
 }
