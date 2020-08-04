@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/stylesheet.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="hero">
+            <div id="titleBanner">
+                <div class="titleBannerBlock" id='titleBannerBlock2'></div>
+                <div class="titleBannerBlock" id='titleBannerBlock2'></div>
+                <div class="titleBannerBlock" id='titleBannerBlock2'></div>
+            </div>
+            <div id="titleBlock">
+                <p class="dHeader1">Enterprise Infrastructure Modernization</p>
+                <p class="dHeader2">Documentation Generator</p>
+            </div>
+            <div id="call2Action">
+                <p id='call2ActionText'>Quickly and easily generate project documentation by completing forms designed by project Subject Matters Experts and the Documentation Team to get you across the finish line.</p>
+                <div id="getStarted">
+                    <button id="getStartedBtn">Get Started</button>
+                </div>
+            </div>
+        </div>
+        <div class="breathingRoom"></div>
+        <div id="formContainer">
+            <form id="InfoForm">
+                <fieldset id="scrumInfo" name="scrumInfo">
+                    <div id="scrumSelect">
+                        <p class="dHeader3">SCRUM Information</p>
+                        <span class="dText">Select SCRUM</span><br>
+                        <select id="scrumName" name="scrumName">
+                            <option class="blankOption">----</option>
+                            <option id='routten'>Routten to the Core</option>
+                            <option id='earth'>Scrum of the Earth</option>
+                            <option id='scrumdog'>Scrumdog Millionaire</option>
+                            <option id='jedi'>Jedi Knights</option>
+                            <option id='chaos'>CHAOS</option>
+                        </select><br>
+                    </div>
+                    <span class='SMEinput'>Enter the name of product owner</span><br>
+                    <input type='text' id='productOwner' name='productOwner' placeholder='ex. John Smith'><br>
+                    <span class='SMEinput'>Product Owner Designation</span><br>
+                    <select type='text' id='POdesignation'>
+                        <option class='blankOption'></option>
+                        <option class='ctr'>CTR</option>
+                        <option class='civ'>CIV</option>
+                        <option class='mil'>MIL</option>
+                    </select><br>
+                    <span class='SMEinput'>Enter Scrum Team Members and click <strong>Add Team Members</strong></span><br>
+                    <input type='type' id='addTeamMem' name='addTeamMem'><br>
+                    <span class='SMEinput'>Scrum Team Member Designation</span><br>
+                    <select type='text' id='STMdesignation'>
+                        <option id='blank'></option>
+                        <option class='ctr'>CTR</option>
+                        <option class='civ'>CIV</option>
+                        <option class='mil'>MIL</option>
+                    </select><br>
+                    <input type='button' id='addTeamMemBtn' name='addTeamMemBtn' value='Add Team Members'><br>   
+                </fieldset>
+            </form>
+        </div>
+        <div class="breathingRoom"></div>
+        <div class="portraitLetter paper">
+            <p>This is the size of a 8.5 x 11 piece of paper with a portrait orination</p>
+        </div>
+        <div class="landscapeLetter paper">
+            <p>This is the size of a 8.5 x 11 piece of paper with a landscape orination</p>
+        </div>
+        <div class="landscape11x17 paper">
+            <p>This is the size of a 11 x 17 piece of paper with a landscape orination</p>
+        </div>
+    </body>
+</html>
