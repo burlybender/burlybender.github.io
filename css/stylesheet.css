@@ -1,0 +1,107 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(29, 53, 87, 1);
+    margin: 0em;
+    color: rgba(241, 250, 238, 1);
+}
+
+p {
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+}
+
+fieldset {
+    border-style: none;
+}
+
+#titleBanner {
+    height: 24vh;
+}
+
+.dHeader1 {
+    color: rgba(29, 53, 87, 1);
+    text-shadow: -1px -1px 0 #F1FAEE, 1px -1px 0 #F1FAEE, -1px 1px 0 #F1FAEE, 1px 1px 0 #F1FAEE;
+    font-size: 6vh;
+    text-align: center;
+}
+
+.dHeader2 {
+    color: rgba(168, 218, 220, 1);
+    font-size: 10vh;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.dHeader3 {
+    color: rgba(168, 218, 220, 1);
+    font-size: 2vw;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#call2Action {
+    width: 50vw;
+    margin: auto;
+    color: rgba(241, 250, 238, 1);
+    font-size: 3vh;
+    text-align: center;
+}
+
+#getStarted {
+    width: 20vw;
+    margin: auto;
+}
+
+#getStartedBtn {
+    color: rgba(241, 250, 238, 1);
+    background-color: rgba(230, 57, 70, 1);
+    font-size: 4vh;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-width: 0.1vw;
+    border-style: solid;
+    border-color: rgba(69, 123, 157, 1);
+    width: 20vw;
+    height: 12vh;
+}
+
+#getStartedBtn:hover {
+    background-color: rgba(69, 123, 157, 1);
+    cursor: pointer;
+}
+
+.breathingRoom {
+    height: 60vh;
+}
+
+#formContainer {
+    width: 66%;
+    margin: auto;
+}
+
+form {
+    background-color: rgba(241, 250, 238, .1);
+}
+
+.paper {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12pt;
+    background-color: white;
+    margin: auto;
+}
+
+.portraitLetter {
+    width: 612pt;
+    height: 792pt;
+}
+
+.landscapeLetter {
+    width: 792pt;
+    height: 612pt;
+}
+
+.landscape11x17 {
+    width: 1224pt;
+    height: 792pt;
+}
