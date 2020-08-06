@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Graduate Homework Assignment</h1>
+        <div class="container" id="task">
+        <p id="Instructions">This HTML document contains checkbox input fields for 5 different tables numbered 1-5. Your task is to add an event listener to the DOM elements using JAVAScript<br>
+            that make the tables appear if selected. Write code in the provided JAVAScript file that performs the described task by using the AddEventListener method<br>
+            to change the CSS display properties of the tables. Do this without altering the HTML file.</p>
+        </div>
+        <div class="container" id="tableInputs">
+            <p>Mark the checkbox to display the table.</p>
+            Show QUAN Table<input type="checkbox" class="ckBox" id="btn1" name="Table1input" onclick="showTable(this)"><br>
+            Show CLJN Table<input type="checkbox" class="ckBox" id="btn2" name="table2input" onclick="showTable(this)"><br>
+            Show PNDL Table<input type="checkbox" class="ckBox" id="btn3" name="table3input" onclick="showTable(this)"><br>
+            Show FTMZ Table<input type="checkbox" class="ckBox" id="btn4" name="table4input" onclick="showTable(this)"><br>
+            Show EUAF Table<input type="checkbox" class="ckBox" id="btn5" name="table5input" onclick="showTable(this)"><br>
+        </div>
+        <br>
+        <div class = "container" id ="tables">
+            <table class="siteTable" id="site1" name="QUAN">
+                <tr>
+                    <th>Device</th>
+                    <th>Manufactor</th>
+                    <th>SITE</th>
+                    <th>Networking Role</th>
+                </tr>
+                <tr>
+                    <td>PowerEdge 840</td>
+                    <td>Dell/EM</td>
+                    <td>QUAN</td>
+                    <td>Server</td>
+                </tr>
+                <tr>
+                    <td>Nexus 9500</td>
+                    <td>Cisco</td>
+                    <td>QUAN</td>
+                    <td>Switch</td>
+                </tr>
+                <tr>
+                    <td>Fortigate 3700D</td>
+                    <td>Fortinet</td>
+                    <td>QUAN</td>
+                    <td>Firewall</td>
+                </tr>
+            </table><br>
+            <table class="siteTable" id="site2" name="CLJN">
+                <tr>
+                    <th>Device</th>
+                    <th>Manufactor</th>
+                    <th>SITE</th>
+                    <th>Networking Role</th>
+                </tr>
+                <tr>
+                    <td>PowerEdge 640</td>
+                    <td>Dell/EM</td>
+                    <td>CLJN</td>
+                    <td>Server</td>
+                </tr>
+                <tr>
+                    <td>Nexus 9300</td>
+                    <td>Cisco</td>
+                    <td>CLJN</td>
+                    <td>Switch</td>
+                </tr>
+                <tr>
+                    <td>Fortigate 3700D</td>
+                    <td>Fortinet</td>
+                    <td>CLJN</td>
+                    <td>Firewall</td>
+                </tr>
+            </table><br>
+            <table class="siteTable" id="site3" name="PNDL">
+                <tr>
+                    <th>Device</th>
+                    <th>Manufactor</th>
+                    <th>SITE</th>
+                    <th>Networking Role</th>
+                </tr>
+                <tr>
+                    <td>PowerEdge 840</td>
+                    <td>Dell/EM</td>
+                    <td>PNDL</td>
+                    <td>Server</td>
+                </tr>
+                <tr>
+                    <td>Nexus 9500</td>
+                    <td>Cisco</td>
+                    <td>PNDL</td>
+                    <td>Switch</td>
+                </tr>
+                <tr>
+                    <td>NetApp 7500</td>
+                    <td>NetApp</td>
+                    <td>PNDL</td>
+                    <td>Storage</td>
+                </tr>
+            </table><br>
+            <table class="siteTable" id="site4" name="FTMZ">
+                <tr>
+                    <th>Device</th>
+                    <th>Manufactor</th>
+                    <th>SITE</th>
+                    <th>Networking Role</th>
+                </tr>
+                <tr>
+                    <td>PowerEdge 840</td>
+                    <td>Dell/EM</td>
+                    <td>FTMZ</td>
+                    <td>Server</td>
+                </tr>
+                <tr>
+                    <td>Nexus 9500</td>
+                    <td>Cisco</td>
+                    <td>FTMZ</td>
+                    <td>Switch</td>
+                </tr>
+                <tr>
+                    <td>Fortigate 3700D</td>
+                    <td>Fortinet</td>
+                    <td>FTMZ</td>
+                    <td>Firewall</td>
+                </tr>
+            </table><br>
+            <table class="siteTable" id="site5" name="EUAF">
+                <tr>
+                    <th>Device</th>
+                    <th>Manufactor</th>
+                    <th>SITE</th>
+                    <th>Networking Role</th>
+                </tr>
+                <tr>
+                    <td>PowerEdge 840</td>
+                    <td>Dell/EM</td>
+                    <td>EUAF</td>
+                    <td>Server</td>
+                </tr>
+                <tr>
+                    <td>ASR 1005</td>
+                    <td>Cisco</td>
+                    <td>EUAF</td>
+                    <td>WANX</td>
+                </tr>
+                <tr>
+                    <td>CX3070</td>
+                    <td>Bluecoat</td>
+                    <td>EUAF</td>
+                    <td>Network Security</td>
+                </tr>
+            </table><br>
+        </div>
+        <script src="js/script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript"></script>
+    </body>
+</html>
