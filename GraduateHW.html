@@ -7,148 +7,127 @@
     <body>
         <h1>Graduate Homework Assignment</h1>
         <div class="container" id="task">
-        <p id="Instructions">This HTML document contains checkbox input fields for 5 different tables numbered 1-5. Your task is to add an event listener to the DOM elements using JAVAScript<br>
-            that make the tables appear if selected. Write code in the provided JAVAScript file that performs the described task by using the AddEventListener method<br>
-            to change the CSS display properties of the tables. Do this without altering the HTML file.</p>
+        <p id="Instructions">This HTML document contains checkbox input fields for 4 different tables. Your task is make the rosters appear when a checkbox is checked
+            and disappear when the are not unchecked. There are several ways to achive this but write dry code, meaning don't write multiple lines of the same code.
+            Changes to the HTML file are acceptable. No changes should be needed to the CSS file.
         </div>
         <div class="container" id="tableInputs">
             <p>Mark the checkbox to display the table.</p>
-            Show QUAN Table<input type="checkbox" class="ckBox" id="btn1" name="Table1input" onclick="showTable(this)"><br>
-            Show CLJN Table<input type="checkbox" class="ckBox" id="btn2" name="table2input" onclick="showTable(this)"><br>
-            Show PNDL Table<input type="checkbox" class="ckBox" id="btn3" name="table3input" onclick="showTable(this)"><br>
-            Show FTMZ Table<input type="checkbox" class="ckBox" id="btn4" name="table4input" onclick="showTable(this)"><br>
-            Show EUAF Table<input type="checkbox" class="ckBox" id="btn5" name="table5input" onclick="showTable(this)"><br>
+            Show Football Roster<input type="checkbox" id="btn1" onclick="showTable(this)"><br>
+            Show Baseball Roster<input type="checkbox" id="btn2" onclick="showTable(this)"><br>
+            Show Basketball Roster<input type="checkbox" id="btn3" onclick="showTable(this)"><br>
+            Show Lacrosse Roster<input type="checkbox" id="btn4" onclick="showTable(this)"><br>
         </div>
         <br>
-        <div class = "container" id ="tables">
-            <table class="siteTable" id="site1" name="QUAN">
-                <tr>
-                    <th>Device</th>
-                    <th>Manufactor</th>
-                    <th>SITE</th>
-                    <th>Networking Role</th>
+        <div class = "container" id ="sports">
+            <table class="sportTable" id="sport1" name="football">
+                <tr class='titleRow'>
+                    <th>Football Roster</th>
                 </tr>
                 <tr>
-                    <td>PowerEdge 840</td>
-                    <td>Dell/EM</td>
-                    <td>QUAN</td>
-                    <td>Server</td>
+                    <th>Name</th>
+                    <th>Position</th>
+                    <th>Number</th>
+                    <th>Year</th>
                 </tr>
                 <tr>
-                    <td>Nexus 9500</td>
-                    <td>Cisco</td>
-                    <td>QUAN</td>
-                    <td>Switch</td>
+                    <td>Jim</td>
+                    <td>QB</td>
+                    <td>11</td>
+                    <td>So.</td>
                 </tr>
                 <tr>
-                    <td>Fortigate 3700D</td>
-                    <td>Fortinet</td>
-                    <td>QUAN</td>
-                    <td>Firewall</td>
-                </tr>
-            </table><br>
-            <table class="siteTable" id="site2" name="CLJN">
-                <tr>
-                    <th>Device</th>
-                    <th>Manufactor</th>
-                    <th>SITE</th>
-                    <th>Networking Role</th>
+                    <td>Bob</td>
+                    <td>LB</td>
+                    <td>56</td>
+                    <td>Sr.</td>
                 </tr>
                 <tr>
-                    <td>PowerEdge 640</td>
-                    <td>Dell/EM</td>
-                    <td>CLJN</td>
-                    <td>Server</td>
-                </tr>
-                <tr>
-                    <td>Nexus 9300</td>
-                    <td>Cisco</td>
-                    <td>CLJN</td>
-                    <td>Switch</td>
-                </tr>
-                <tr>
-                    <td>Fortigate 3700D</td>
-                    <td>Fortinet</td>
-                    <td>CLJN</td>
-                    <td>Firewall</td>
+                    <td>Frank</td>
+                    <td>OL</td>
+                    <td>77</td>
+                    <td>Jr.</td>
                 </tr>
             </table><br>
-            <table class="siteTable" id="site3" name="PNDL">
-                <tr>
-                    <th>Device</th>
-                    <th>Manufactor</th>
-                    <th>SITE</th>
-                    <th>Networking Role</th>
+            <table class="sportTable" id="sport2" name="baseball">
+                <tr class='titleRow'>
+                    <th>Baseball Roster</th>
                 </tr>
                 <tr>
-                    <td>PowerEdge 840</td>
-                    <td>Dell/EM</td>
-                    <td>PNDL</td>
-                    <td>Server</td>
+                    <th>Name</th>
+                    <th>Position</th>
+                    <th>Number</th>
+                    <th>Year</th>
                 </tr>
                 <tr>
-                    <td>Nexus 9500</td>
-                    <td>Cisco</td>
-                    <td>PNDL</td>
-                    <td>Switch</td>
+                    <td>Scott</td>
+                    <td>P</td>
+                    <td>24</td>
+                    <td>So.</td>
                 </tr>
                 <tr>
-                    <td>NetApp 7500</td>
-                    <td>NetApp</td>
-                    <td>PNDL</td>
-                    <td>Storage</td>
-                </tr>
-            </table><br>
-            <table class="siteTable" id="site4" name="FTMZ">
-                <tr>
-                    <th>Device</th>
-                    <th>Manufactor</th>
-                    <th>SITE</th>
-                    <th>Networking Role</th>
+                    <td>Matt</td>
+                    <td>1B</td>
+                    <td>18</td>
+                    <td>Jr.</td>
                 </tr>
                 <tr>
-                    <td>PowerEdge 840</td>
-                    <td>Dell/EM</td>
-                    <td>FTMZ</td>
-                    <td>Server</td>
-                </tr>
-                <tr>
-                    <td>Nexus 9500</td>
-                    <td>Cisco</td>
-                    <td>FTMZ</td>
-                    <td>Switch</td>
-                </tr>
-                <tr>
-                    <td>Fortigate 3700D</td>
-                    <td>Fortinet</td>
-                    <td>FTMZ</td>
-                    <td>Firewall</td>
+                    <td>Hank</td>
+                    <td>RF</td>
+                    <td>28</td>
+                    <td>Fr.</td>
                 </tr>
             </table><br>
-            <table class="siteTable" id="site5" name="EUAF">
-                <tr>
-                    <th>Device</th>
-                    <th>Manufactor</th>
-                    <th>SITE</th>
-                    <th>Networking Role</th>
+            <table class="sportTable" id="sport3" name="basketball">
+                <tr class='titleRow'>
+                    <th>Basketball Roster</th>
                 </tr>
                 <tr>
-                    <td>PowerEdge 840</td>
-                    <td>Dell/EM</td>
-                    <td>EUAF</td>
-                    <td>Server</td>
+                    <th>Name</th>
+                    <th>Position</th>
+                    <th>Number</th>
+                    <th>Year</th>
                 </tr>
                 <tr>
-                    <td>ASR 1005</td>
-                    <td>Cisco</td>
-                    <td>EUAF</td>
-                    <td>WANX</td>
+                    <td>Luke</td>
+                    <td>G</td>
+                    <td>23</td>
+                    <td>So.</td>
                 </tr>
                 <tr>
-                    <td>CX3070</td>
-                    <td>Bluecoat</td>
-                    <td>EUAF</td>
-                    <td>Network Security</td>
+                    <td>Adam</td>
+                    <td>F</td>
+                    <td>91</td>
+                    <td>Sr.</td>
+                </tr>
+            </table><br>
+            <table class="sportTable" id="sport4" name="lacrosse">
+                <tr class='titleRow'>
+                    <th>Lacrosse Roster</th>
+                </tr>
+                <tr>
+                    <th>Name</th>
+                    <th>Position</th>
+                    <th>Number</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>Landon</td>
+                    <td>A</td>
+                    <td>6</td>
+                    <td>Jr.</td>
+                </tr>
+                <tr>
+                    <td>Sklyer</td>
+                    <td>M</td>
+                    <td>32</td>
+                    <td>Jr.</td>
+                </tr>
+                <tr>
+                    <td>Drinken</td>
+                    <td>D</td>
+                    <td>44</td>
+                    <td>Sr.</td>
                 </tr>
             </table><br>
         </div>
