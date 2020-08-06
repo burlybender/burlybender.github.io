@@ -1,0 +1,37 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(100,255,100,.9);
+    background-color: rgba(0,0,0,.9);
+}
+
+h1{
+    text-align: center;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+}
+
+#sports th {
+    color: rgba(255, 255, 255,.9);
+    background-color: rgba(73, 73, 252, 0.842);
+    text-align: left;
+}
+
+#sports td, #sports th {
+    border: 1px solid rgba(255, 255, 255,.5);
+}
+
+#sports tr:nth-child(even) {
+    background-color: rgba(255, 255, 255,.2);
+}
+
+#sports tr:hover {
+    background-color: rgba(238, 214, 31, 0.9);
+}
+
+.sportTable {
+    width: 600px;
+    display: none;
+}
